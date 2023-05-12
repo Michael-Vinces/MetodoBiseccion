@@ -21,7 +21,7 @@ def biseccion(f, a, b, tolerancia):
 
         if c_anterior is not None:
             Porcentaje_error = abs((c - c_anterior) / c) * 100
-            print(f"Porcentaje de error: {Porcentaje_error:.6f}%")
+            print(f"Porcentaje de error: {Porcentaje_error:.2f}%")
 
         if fc == 0:
             return c
