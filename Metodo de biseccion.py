@@ -32,7 +32,7 @@ def biseccion(f, a, b, tolerancia):
         else:
             a = c
             fa = fc
-
+        c_anterior = c
         #Imprime la ultima iteración
         if (b-a)/2<tolerancia:
             c_anterior = c
